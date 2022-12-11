@@ -1,4 +1,10 @@
-# Week 2-2. 광고현황 대시보드 및 광고관리 서비스
+## 광고현황 대시보드 및 광고관리 서비스
+
+## 배포 링크 : [바로가기 클릭](https://frabjous-frangipane-831c63.netlify.app/)
+
+## 실행결과
+
+
 
 <br />
 
@@ -9,17 +15,20 @@
 5. [프로젝트 구조 🗂](#5-프로젝트-구조-)
 6. [Best Practice 선정과정👩‍👦‍👦](#6-best-practice-선정과정)
 7. [프로젝트 설치 및 실행 ✨](#7-프로젝트-설치-및-실행-)  
-
-<br/>
-
-- [🌍 배포 링크](https://frabjous-frangipane-831c63.netlify.app/)
-- [📄 팀 노션](https://plain-airboat-3f4.notion.site/10-27-Todo-f9fb2a1265e54c33b0b73c306c230042)
-
 <br />
 
+## 실행결과
+
+<img src="https://user-images.githubusercontent.com/99943583/206896210-11e53c69-b3c9-45df-8f47-a6b6d0e43438.gif">
 
 
-## 1. 팀 소개 👫
+
+#### STACK
+<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=white"> <img src="https://img.shields.io/badge/TypeScript-3178C6.svg?&style=for-the-badge&logo==TypeScript&logoColor=white" ><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white">
+<img src="https://img.shields.io/badge/styled components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white">
+<img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=React Router&logoColor=white">
+
+## 팀 소개
 
 - [이빛나 (팀장)](https://github.com/bitnaleeeee)
 - [모상빈](https://github.com/Topbin2)
@@ -29,54 +38,29 @@
 - [조성호](https://github.com/CSH111)
 - [전대원](https://github.com/eodnjs467)
 
-<br />
 
-## 2. 프로젝트 소개 🚀
+<br>
 
-- 개요 : 원티드 프론트엔드 프리온보딩 7기 2팀 과제 2-2 중 Best Practice
-- 주제 : 광고현황 대시보드 및 광고관리 서비스
+## 프로젝트 소개 
+
+- 목표 : 광고현황 대시보드 및 광고관리 서비스
 - 기간 : 2022.11.05 ~ 2022.11.06
+- 주관 : 원티드 
+
+<br>
+
+  
+## 구현 사항
+
+- [x] 대시보드 datePicker, 기간 필터
+- [x] 대시보드 통합광고 현황
+- [x] 대시보드 차트
+- [x] 대시보드 지표별 필터
+- [x] 페이지 이동시 상태유지
 
 <br />
 
-
-## 3. 기술 스택 🛠
-
-- React
-- redux-toolkit
-- Recharts
-- Styled-Components
-
-<br />
-
-## 4. 구현 기능 📍
-
-
-- 구현사항
-  - 대시보드 datePicker, 기간 필터
-  - 대시보드 통합광고 현황
-  - 대시보드 차트
-  - 대시보드 지표별 필터
-  - 페이지 이동시 상태유지
-
-<br />
-
-## 5. 프로젝트 구조 🗂
-
-```bash
-src
-├── components  // 공용 컴포넌트
-├── constants  // 상수
-├── hooks  // hooks
-├── pages // 페이지 및 페이지별 컴포넌트
-├── store // 리덕스 툴킷 전역상태관리
-└── utils // dateformatting 등 유틸 함수
-```
-
-<br/>
-
-
-## 6. Best Practice 선정과정👩‍👦‍👦
+## 주요 기능
 
 ### DatePicker
 
@@ -190,7 +174,7 @@ const MetaList = () => {
 
 ```
 
-## 7. 프로젝트 설치 및 실행 ✨
+## 프로젝트 설치 및 실행 
 
 <br/>
 
@@ -211,13 +195,3 @@ $ npm install
 ```plaintext
 $ npm start
 ```
-
-
-
-
-
-
-
-
-
-
